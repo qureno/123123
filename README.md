@@ -52,7 +52,7 @@ The options that you have to select are the following:
 
 In the image you will see the two options that you will have to select.
 
-![Options on Wallet Settings to select](https://github.com/qureno/qureno-masternode-guide/blob/master/qurenocore_settings.png "Wallet Settings")
+![Options on Wallet Settings to select](https://github.com/qureno/qureno-masternode-guide/blob/master/qurenocore_settings.jpg "Wallet Settings")
 
 Press "OK" button. In order to enable the new options, you have to restart Qureno Core wallet.
 
