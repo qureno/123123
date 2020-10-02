@@ -5,7 +5,7 @@ In this guide you will learn how to prepare a Qureno Masternode in Ubuntu versio
 This guide was done with the following environment:
 * Local: Windows 8.1 64 bit
 * Remote: Ubuntu 16.04 64 bit (fresh Ubuntu server without Qureno already installed)
-* Qureno Version: 0.13.0.1
+* Qureno Version: 0.13.0.4
 
 ## Initial requirements
 
@@ -119,10 +119,10 @@ apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get -y
 
 ```
 cd /opt \
-    && wget https://github.com/qureno/qureno/releases/download/0.13.0.1/qureno-0.13.0.1-linux.tgz \
-    && tar -xvf qureno-0.13.0.1-linux.tgz \
-    && rm qureno-0.13.0.1-linux.tgz \
-    && cp qureno-0.13.0.1-linux/qureno{d,-cli} /usr/local/bin \
+    && wget https://github.com/qureno/qureno/releases/download/0.13.0.4/qureno-0.13.0.4-linux.tar.gz \
+    && tar -xvf qureno-0.13.0.4-linux.tar.gz \
+    && rm qureno-0.13.0.4-linux.tar.gz \
+    && cp qureno-0.13.0.4-linux/qureno{d,-cli} /usr/local/bin \
     && chmod -R 7777 /usr/local/bin/qureno*
 ```
 
